@@ -1,0 +1,134 @@
+@charset "utf-8";
+/*重置样式*/
+*{margin: 0;padding: 0;}
+html,body{height:100%;}
+p,a,ul,li,h1,h2,h3,h4{
+	font-family:"仿宋";
+}
+/*箭头样式*/
+.arrow{
+	width: 80px;
+	height:80px;
+	background-color:transparent;
+	position: fixed;
+	bottom:10px;
+	left:45%;
+	z-index:100;
+}
+.arrow img{
+	width: 40px;
+	height: 40px;
+}
+/*内容样式*/
+#wrap{
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.main{
+	height: 100%;
+	position: relative;
+}
+.page{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	transition:all 1s ease;
+}
+.page_1{background: url(../images/294923.jpg);background-size:cover; }
+.page_2{background: url(../images/efe3db298e3a584fc9881bd85cc0ed5819e6mahiruysal303105jpg.jpg);background-size:cover; }
+.page_3{background:;}
+.page_4{background:;}
+.page_5{background:url(../images/pexels-photo-160056.jpeg);background-size:cover; }
+.delay-time{animation-delay:1s;}
+/*page页在屏幕下面*/
+.pageDown{transform:translateY(100%);} 
+/*page页在屏幕上面*/
+.pageUp{transform:translateY(-100%);} 
+/*==============================================page-1*/
+.page_1 h1{
+	text-align: center;
+	line-height: 500px;
+	font-size: 4em;
+	color: white;
+}
+/*==============================================page-2*/
+.page_2 figure{
+	margin: 20px auto;
+	text-align:center;
+	width: 120px;
+	height: 120px;
+	/*border:1px solid black;*/
+	border-radius: 50%;
+	overflow: hidden;
+}
+.page_2 p{
+	line-height: 30px;
+	text-align: center;
+}
+/*==============================================page-3*/
+.page_3 h3{
+	background:url(../images/2017-07-07_234036.png);
+	text-align:center;
+	width: 100%;
+	height: 8%;
+	border-radius: 5px;
+	color: #FF9900;
+	font-size: 1.5em;
+}
+.page_3 section{
+	background: #F7F7F7;
+	width: 100%;
+	height: 18%;
+	border: 1px solid white;
+}
+.page_3 p{
+	font-size: 1.5em;
+}
+.page_3 ul li{
+	color:#2E1F79;
+	display: inline-block;
+	margin-top: 15px;
+}
+/*==============================================page-4*/
+.page_4 h3{
+	width: 100%;
+	height: 10%;
+	background:url(../images/2017-07-08_011831.png);
+	background-size:cover; 
+	color: white;
+	font-size: 1.5em;
+}
+.page_4 h3 a{
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size:15px;
+	color: orange;
+}
+.page_4 img{
+	width: 100%;
+	height: 90%;
+}
+/*==============================================page-5*/
+.page_5 .end{
+	margin-top: 200px;
+}
+.page_5 p{
+	font-size: 2em;
+	text-align: center;
+	color: white;
+}
+/*==============================================page-6*/
+
+
+
